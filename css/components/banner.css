@@ -1,0 +1,35 @@
+.banner {
+ 	background-image: url(../../images/banner.jpg);   
+	background-size: cover;     
+	background-position: center;
+	width: 100%;
+  	height: 75vh;
+}
+
+.banner h1, h2 {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.banner h1 {
+	font-weight: 250;
+	font-size: 75px;
+	word-wrap: break-word;
+}
+
+.banner h2 {	
+	font-weight: 150;
+	padding: 25vh 0vh 0vh 0vh;
+}
+
+#text-banner {
+	width: 100%;
+	height: 75vh;
+	text-align: left;
+	padding: 0vh 0vh 0vh 20vh;
+	color: white;
+}
+
+/*
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;*/
