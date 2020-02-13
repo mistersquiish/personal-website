@@ -1,4 +1,30 @@
 .container {
-	width: 800px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.container-large {
+	width: 900px;
+}
+
+.container-small {
+	width: 600px;
+}
+
+.background-white {
+	background-color: white;
+}
+
+.container-left-aligned {
+	text-align: left;
+	padding: 10px 0px 10px 20px;
+}
+
+.container-title {
+	padding: 20vh 0vh 10vh;
+	font-size: 25px;
+}
+
+.container-title h2 {
+	font-weight: 350;
 }

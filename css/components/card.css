@@ -1,0 +1,31 @@
+.image {  
+	background-color: red;
+	width: 300px;
+  	height: 250px;
+  	border-radius: 20px;
+}
+
+.card {
+	display: flex;
+	padding: 20px 0px;
+	line-height: 20px;
+}
+
+.card h2 {
+	font-weight: 150;
+}
+
+.card h3 {
+	color: #5E9516;
+	font-weight: 100;
+}
+
+.card a {
+	color: #3274C7;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.card a:hover {
+	color: #26548d;
+}
