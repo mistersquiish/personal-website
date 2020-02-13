@@ -4,7 +4,6 @@
 	background-position: right 0;
 	width: 100%;
   	height: 85vh;
-  	display: flex;
 }
 
 .banner h1, h2 {
@@ -20,7 +19,7 @@
 
 .banner h2 {	
 	font-weight: 150;
-	padding: 65vh 0vh 0vh 0vh;
+	padding: 55vh 0vh 0vh 0vh;
 }
 
 #text-banner {
@@ -31,7 +30,7 @@
 	color: white;
 }
 
- @media only screen and (max-width: 480px) {
+ @media only screen and (device-width: 375px) {
 	#text-banner {
 		width: 100%;
 		height: 75vh;
