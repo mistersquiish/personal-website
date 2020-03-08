@@ -1,5 +1,5 @@
 .banner {
- 	background-image: url(../../images/banner.jpg);   
+	background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7)), url(../../images/banner.jpg);   
 	background-size: cover;     
 	background-position: right 0;
 	width: 100%;
@@ -21,7 +21,7 @@
 
 .banner h2 {	
 	font-weight: 150;
-	padding: 55vh 0vh 0vh 0vh;
+	padding: 50vh 0vh 0vh 0vh;
 }
 
 #text-banner {
@@ -30,6 +30,40 @@
 	text-align: left;
 	padding: 0vh 0vh 0vh 20vh;
 	color: white;
+}
+
+.banner .social-icon {
+	color: white;
+}
+
+#social-container {
+	display: flex;
+	width: 100px;
+	justify-content: space-between;
+}
+
+#social-container:hover .social-icon{
+	opacity: .5;
+}
+
+#social-container .social-icon:hover {
+	opacity: 1;
+}
+
+.resume-container {
+	background-color: white;
+	border-radius: 1px;
+	width: 70px;
+	padding: 5px;
+	height: 20px;
+	text-align: center;
+}
+
+.resume-container {
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 500;
 }
 
  @media only screen and (device-width: 375px) {
@@ -54,7 +88,3 @@
 		padding: 0vh 0vh 10vh 0vh;
 	}
 }
-
-/*
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Raleway', sans-serif;*/

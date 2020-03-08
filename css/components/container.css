@@ -11,6 +11,10 @@
 	width: 600px;
 }
 
+.container-x-small {
+	width: 200px;
+}
+
 .background-white {
 	background-color: white;
 }
@@ -28,3 +32,12 @@
 .container-title h2 {
 	font-weight: 350;
 }
+
+.container-flex {
+	display: flex;
+}
+
+.container-space-between {
+	justify-content: space-between;
+}
+

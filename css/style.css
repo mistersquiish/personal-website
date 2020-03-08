@@ -15,10 +15,6 @@ body {
 	margin: 0px;
 }
 
-ul {
-	padding-inline-start: 0px;
-}
-
-ul#ul-inline li {
-	display: inline;
+.padding-top {
+	padding-top: 10px;
 }
