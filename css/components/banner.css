@@ -38,7 +38,7 @@
 
 #social-container {
 	display: flex;
-	width: 100px;
+	width: 130px;
 	justify-content: space-between;
 }
 
@@ -48,13 +48,6 @@
 
 #social-container .social-icon:hover {
 	opacity: 1;
-}
-
-.resume-container {
-	background-color: white;
-	border-radius: 1px;
-	padding: 5px;
-	text-align: center;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
