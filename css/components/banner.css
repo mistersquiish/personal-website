@@ -61,7 +61,7 @@
 		height: 75vh;
 		text-align: left;
 		padding-left: 5vw;
-		color: blue;
+		color: white;
 	}
 
 	.banner h2 {	
@@ -77,6 +77,6 @@
 	}
 
 	#social-container {
-		width: 60vw;
+		width: 70vw;
 	}
 }
