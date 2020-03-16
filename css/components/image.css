@@ -12,7 +12,8 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.image-small {  
-		width: 70%;
+		width: 50vh;
+		height: 40vh;
   		font-size: 50px;
 	}
 }
