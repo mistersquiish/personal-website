@@ -2,6 +2,7 @@
 @import url("components/container.css");
 @import url("components/card.css");
 @import url("components/image.css");
+@import url("components/scroll.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap")
 
 h1 h2 h3 {
