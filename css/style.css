@@ -15,10 +15,12 @@ body {
 	margin: 0px;
 }
 
-.padding-top {
-	padding-top: 3vh;
-}
-
 .margin-right {
 	margin-right: 2vw;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+	.margin-right {
+		margin-right: 5vw;
+	}
 }
