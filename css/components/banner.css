@@ -73,11 +73,10 @@
 	.banner h1 {
 		font-weight: 250;
 		font-size: 100px;
-		padding: 0vh 0vh 5vh 0vh;
+		padding: 0vh 0vh 2vh 0vh;
 	}
 
 	#social-container {
 		width: 40vw;
-		padding-top: 1vh;
 	}
 }
