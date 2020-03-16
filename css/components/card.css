@@ -1,7 +1,8 @@
 .card {
 	display: flex;
-	padding: 20px 0px;
 	line-height: 20px;
+	padding-bottom: 5vh;
+	justify-content: center;
 }
 
 .card h3 {
