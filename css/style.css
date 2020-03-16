@@ -17,10 +17,10 @@ body {
 }
 
 .margin-right {
-	margin-right: 5vw;
+	margin-right: 2vw;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 1468px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.margin-right {
 		margin-right: 10vw;
 	}
