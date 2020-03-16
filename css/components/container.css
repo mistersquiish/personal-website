@@ -41,8 +41,9 @@
 	justify-content: space-between;
 }
 
-/*@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
-	.container-large {
-		width: 80%;
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+	.container-left-aligned {
+		text-align: left;
+		padding: 0px;
 	}
-}*/
+}
