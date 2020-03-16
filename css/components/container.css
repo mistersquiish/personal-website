@@ -41,9 +41,17 @@
 	justify-content: space-between;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 1468px) {
 	.container-left-aligned {
-		text-align: left;
+		text-align: center;
 		padding: 0px;
+	}
+
+	.container-large {
+		width: 90%;
+	}
+
+	.container-small {
+		width: 100%;
 	}
 }
