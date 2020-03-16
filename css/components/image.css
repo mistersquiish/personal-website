@@ -1,5 +1,5 @@
 .image-large {  
-	width: 22vw;
+	width: 40vh;
   	height: 30vh;
   	border-radius: 20px;
 }
@@ -10,10 +10,9 @@
   	font-size: 5vh;
 }
 
-/*@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.image-small {  
-		width: 50px;
-  		height: 50px;
+		width: 70%;
   		font-size: 50px;
 	}
-}*/
+}
