@@ -51,6 +51,19 @@
 	opacity: 1;
 }
 
+.banner .nav-item:before {
+	background-color: white;
+}
+
+.banner a {
+	line-height: 30px;
+}
+
+.social-icon-padding {
+	margin-right: 7px;
+	padding-right: 3px;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.banner {
 		height: 75vh;
