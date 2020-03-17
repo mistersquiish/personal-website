@@ -25,7 +25,7 @@
 	background-color: #26548d;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 1468px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.card {
 		flex-direction: column;
 		text-align: center;
