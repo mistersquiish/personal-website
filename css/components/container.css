@@ -4,7 +4,7 @@
 }
 
 .container-large {
-	width: 60vw;
+	width: 65vw;
 }
 
 .container-small {
@@ -25,7 +25,7 @@
 }
 
 .container-title {
-	padding: 12vh 0vh 5vh;
+	padding: 5vh 0vh;
 	font-size: 25px;
 }
 

@@ -2,7 +2,9 @@
 	display: flex;
 	line-height: 20px;
 	padding-bottom: 5vh;
+	padding-left: 5vw;
 	justify-content: center;
+	width: 60vw;
 }
 
 .card h3 {
@@ -12,12 +14,15 @@
 
 .card a {
 	color: #3274C7;
-	text-decoration: none;
 	font-size: 25px;
 }
 
 .card a:hover {
 	color: #26548d;
+}
+
+.card .nav-item:before {
+	background-color: #26548d;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
