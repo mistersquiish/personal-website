@@ -39,4 +39,8 @@
 	.card a {
 		font-size: 45px;
 	}
+
+	.card h3 {
+		line-height: 45px;
+	}
 }
