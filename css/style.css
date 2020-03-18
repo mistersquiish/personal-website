@@ -7,12 +7,12 @@
 @import url("components/a.css");
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Lato&display=swap');
 
-h1 h2 h3 {
+h1 h2 h3 a {
 	font-family: 'Alegreya', serif;
 	/*font-weight: thin;*/
 }
 
-body {
+p {
 	font-family: 'Lato', sans-serif;
 	background-color: #FFFFFF;
 	margin: 0px;
