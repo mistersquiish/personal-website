@@ -9,13 +9,15 @@
 
 h1 h2 h3 a {
 	font-family: 'Alegreya', serif;
-	/*font-weight: thin;*/
+}
+
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
 }
 
 p {
 	font-family: 'Lato', sans-serif;
-	background-color: #FFFFFF;
-	margin: 0px;
 }
 
 .margin-right {

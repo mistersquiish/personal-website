@@ -36,3 +36,9 @@ a.nav-item {
   -moz-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  .nav-item {
+    opacity: 1;
+  }
+}
