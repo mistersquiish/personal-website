@@ -11,9 +11,14 @@ h1 h2 h3 a {
 	font-family: 'Alegreya', serif;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-color: #FFFFFF;
 	margin: 0px;
+	height: 100%;
 }
 
 p {
