@@ -10,6 +10,7 @@
 .card h3 {
 	color: #5E9516;
 	font-weight: 100;
+	line-height: 45px
 }
 
 .card a {
@@ -32,6 +33,7 @@
 		justify-content: center;
 		font-size: 40px;
 		line-height: 40px;
+		width: 60vh;
 	}
 
 	.card a {
