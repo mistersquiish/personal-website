@@ -5,15 +5,15 @@
 @import url("components/scroll.css");
 @import url("components/timeline.css");
 @import url("components/a.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap")
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Lato&display=swap');
 
 h1 h2 h3 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Alegreya', serif;
+	/*font-weight: thin;*/
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 250;
+	font-family: 'Lato', sans-serif;
 	background-color: #FFFFFF;
 	margin: 0px;
 }
