@@ -4,15 +4,10 @@ a.nav-item {
 
 .nav-item {
   color: black;
-  opacity: 0.8;
   position: relative;
   -webkit-transition: opacity 0.2s ease-in-out 0s;
   -moz-transition: opacity 0.2s ease-in-out 0s;
   transition: opacity 0.2s ease-in-out 0s;
-}
-
-.nav-item:hover {
-  opacity: 1;
 }
 
 .nav-item:before {
@@ -38,7 +33,4 @@ a.nav-item {
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
-  .nav-item {
-    opacity: 1;
-  }
 }
