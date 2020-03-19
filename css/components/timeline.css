@@ -59,6 +59,12 @@
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 1568px) {
+  .timeline {
+    position: relative;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
 /* Place the timelime to the left */
   .timeline::after {
     left: 21px;
@@ -67,8 +73,7 @@
 /* Full-width containers */
   .container-timeline {
     width: 80%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 60px;
   }
 
 /* Make sure all circles are at the same spot */
