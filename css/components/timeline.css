@@ -1,7 +1,7 @@
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 70vw;
   margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@
 .container-timeline {
   position: relative;
   background-color: white;
-  width: 10%;
+  width: 50vw;
 }
 
 /* The circles on the timeline */
@@ -66,7 +66,7 @@
 
 /* Full-width containers */
   .container-timeline {
-    width: 100%;
+    width: 80%;
     padding-left: 70px;
     padding-right: 25px;
   }
