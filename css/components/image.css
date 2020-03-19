@@ -1,6 +1,6 @@
 .image-large {  
-	width: 25vw;
-  	height: 30vh;
+	width: 20vw;
+  	height: 225px;
   	border-radius: 20px;
 }
 
@@ -12,8 +12,8 @@
 
 .img-hover-zoom-large {
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-  width: 30vw;
-  height: 30vh;
+  width: 40vw;
+  height: 225px;
   border-radius: 20px;
 }
 
@@ -30,15 +30,11 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.image-large {  
 		width: 100%;
-		max-width: 50vh;
-		height: 25vh;
 	}
 
 	.img-hover-zoom-large {
 	  overflow: visible;
 	  width: 100%;
-	  max-width: 50vh;
-	  height: 25vh;
 	}
 
 	/* [2] Transition property for smooth transformation of images */
