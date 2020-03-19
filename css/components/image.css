@@ -30,13 +30,13 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 1768px) {
 	.image-large {  
 		width: 90%;
-		height: 300px;
+		height: 350px;
 	}
 
 	.img-hover-zoom-large {
 	  overflow: visible;
 	  width: 90%;
-	  height: 300px;
+	  height: 350px;
 	}
 
 	/* [2] Transition property for smooth transformation of images */
