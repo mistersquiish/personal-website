@@ -26,13 +26,14 @@
 	background-color: #26548d;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 1568px) {
 	.card {
 		flex-direction: column;
 		text-align: center;
 		justify-content: center;
 		font-size: 40px;
 		line-height: 45px;
+		width: 50vw;
 	}
 
 	.card a {
