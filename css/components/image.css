@@ -1,5 +1,5 @@
 .image-large {  
-	width: 300px;
+	width: 32px;
   	height: 225px;
   	border-radius: 20px;
 }
@@ -12,7 +12,7 @@
 
 .img-hover-zoom-large {
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-  width: 300px;
+  width: 325px;
   height: 225px;
   border-radius: 20px;
 }
@@ -29,13 +29,13 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 	.image-large {  
-		width: 100%;
+		width: 85%;
 		height: 300px;
 	}
 
 	.img-hover-zoom-large {
 	  overflow: visible;
-	  width: 100%;
+	  width: 85%;
 	  height: 300px;
 	}
 
