@@ -28,6 +28,12 @@
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+	.image-large {  
+		width: 35vh;
+	  	height: 25vh;
+	  	border-radius: 20px;
+	}
+
 	.img-hover-zoom-large {
 	  overflow: visible; /* [1.2] Hide the overflowing of child elements */
 	  width: 40vh;
