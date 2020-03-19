@@ -31,12 +31,14 @@
 	.image-large {  
 		width: 90%;
 		max-width: 50vh;
+		height: 25vh;
 	}
 
 	.img-hover-zoom-large {
 	  overflow: visible;
 	  width: 90%;
 	  max-width: 50vh;
+	  height: 25vh;
 	}
 
 	/* [2] Transition property for smooth transformation of images */
