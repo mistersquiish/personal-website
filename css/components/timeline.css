@@ -74,11 +74,12 @@
 /* Full-width containers */
   .container-timeline {
     padding-left: 50px;
+    width: 100%;
   }
 
-.container-timeline::after {
-  top: 225px;
-}
+  .container-timeline::after {
+    top: 225px;
+  }
 
 /* Make sure all circles are at the same spot */
   .timeline-left::after, .timeline-right::after {
