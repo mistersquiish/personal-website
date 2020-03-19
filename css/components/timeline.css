@@ -22,7 +22,7 @@
 .container-timeline {
   position: relative;
   background-color: white;
-  width: 50vw;
+  width: 90%;
 }
 
 /* The circles on the timeline */
@@ -51,7 +51,7 @@
 
 /* The actual content */
 .timeline-content {
-  width: 90%;
+  width: 100%;
   background-color: white;
   position: relative;
   border-radius: 6px;
@@ -68,13 +68,17 @@
 /* Place the timelime to the left */
   .timeline::after {
     left: 21px;
+    top: 150px;
   }
 
 /* Full-width containers */
   .container-timeline {
-    width: 90%;
     padding-left: 40px;
   }
+
+.container-timeline::after {
+  top: 150px;
+}
 
 /* Make sure all circles are at the same spot */
   .timeline-left::after, .timeline-right::after {
