@@ -58,7 +58,7 @@
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 1768px) {
+@media screen and (max-width: 768px) {
   .timeline {
     position: relative;
     width: 95%;
