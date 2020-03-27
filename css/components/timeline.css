@@ -60,7 +60,7 @@
 @media screen and (max-width: 768px) {
   .timeline {
     position: relative;
-    width: 100%;
+    width: 70vw;
     max-width: 80vw;
     margin: 0 auto;
   }
