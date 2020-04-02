@@ -60,7 +60,7 @@
 @media screen and (max-width: 768px) {
   .timeline {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -73,7 +73,7 @@
 /* Full-width containers */
   .container-timeline {
     padding-left: 50px;
-    width: 70%;
+    width: 90%;
   }
 
   .container-timeline::after {
