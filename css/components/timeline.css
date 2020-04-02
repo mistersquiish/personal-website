@@ -73,7 +73,7 @@
 /* Full-width containers */
   .container-timeline {
     padding-left: 50px;
-    width: 90%;
+    width: 70%;
   }
 
   .container-timeline::after {
