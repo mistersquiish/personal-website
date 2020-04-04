@@ -61,7 +61,7 @@
   .timeline {
     position: relative;
     width: 100%;
-    max-width: 70vw;
+    max-width: 60vw;
     margin: 0 auto;
   }
 
@@ -73,7 +73,6 @@
 
 /* Full-width containers */
   .container-timeline {
-    padding-left: 50px;
     width: 90%;
   }
 
