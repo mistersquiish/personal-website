@@ -65,7 +65,7 @@
 /* Place the timelime to the left */
   .timeline::after {
     left: 20px;
-    top: 0vh;
+    top: 1vh;
   }
 
 /* Full-width containers */
@@ -74,7 +74,7 @@
   }
 
   .container-timeline::after {
-    top: 0vh;
+    top: 1vh;
   }
 
 /* Make sure all circles are at the same spot */
