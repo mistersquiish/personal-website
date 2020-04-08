@@ -10,7 +10,7 @@
   position: absolute;
   width: 2px;
   background-color: #77BAD8;
-  /*top: 15vh;*/
+  top: 112.5px;
   bottom: 0;
   left: 5%;
   margin-left: -2px;
@@ -33,7 +33,7 @@
   right: -17px;
   background-color: white;
   border: 2px solid #77BAD8;
-  /*top: 15vh;*/
+  top: 112.5px;
   border-radius: 50%;
   z-index: 1;
 }
@@ -57,23 +57,25 @@
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1068px) {
   .timeline {
-    width: 40vw;
+    width: 100%;
+    max-width: 90vw;
   }
 
 /* Place the timelime to the left */
   .timeline::after {
+    top: 225px;
     left: 20px;
-    top: 20vh;
   }
 
 /* Full-width containers */
   .container-timeline {
-    width: 50%;
+    width: 100%;
   }
 
   .container-timeline::after {
+    top: 225px;
   }
 
 /* Make sure all circles are at the same spot */
@@ -84,5 +86,11 @@
 /* Make all right containers behave like the left ones */
   .timeline-right {
     left: 0%;
+  }
+
+  /* The actual content */
+  .timeline-content {
+    left: 7%;
+    width: 86%;
   }
 }
